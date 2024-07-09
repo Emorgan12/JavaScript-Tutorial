@@ -1,0 +1,23 @@
+**Variables**
+
+What is a variable? A named location in memory that is used to hold data 
+How do you declare a variable? let VariableName = Data
+
+**Constants**
+
+What is the purpose of a constant? To ensure data that should not change will not be modified
+What is the difference between a constant and a variable? Constants cannot be changed, variable can and likely will
+
+**Primitive Data Types**
+
+What are primitive data types? Primitive data types are the main data types used in variables, they can only hold one value
+What are the 7 primitive data types? String, number, bigint, undefined, bool, null and symbol
+
+**Dynamic Typing**
+
+What is dynamic typing? Assigning different data types to the same variable
+
+**Objects**
+
+What is an object in JavaScript? An object refers to a noun usually which holds multiple related key value pairs 
+Are objects a reference or primitive type? Reference because it holds multiple key value pairs
