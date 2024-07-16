@@ -82,3 +82,5 @@ console.log("End of section")
 //This is the ternary operator
 let isAdult = person['age'] >= 18 ? 'Yes' : 'No';
 console.log(isAdult);
+
+console.log("End of section")
