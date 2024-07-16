@@ -42,22 +42,43 @@ let person = {
 person['name'] = 'Elliot';
 console.log(person['name']);
 
+console.log("End of section")
 //Accessing a property in an object using a string variable as the key
 let property = 'age';
 console.log(person[property]);
 
+console.log("End of section")
 //This is an array data type
 let colours = ['Red', 'Green', 'Blue'];
 console.log(colours.length);    
 console.log(colours[0]);
 
+console.log("End of section")
 //This is a function
 function SayHello(name) {
     console.log('Hello ' + name);
 }
 SayHello(person['name']);
 
-function multiply(a, b) {
-    return a * b;
+function multiply(num1, num2) {
+    return num1 * num2;
 }
 console.log(multiply(5, 6));
+
+console.log("End of section")
+//These are comparison/equality operators
+let a = 10;
+let b = 5;
+
+console.log(a == b);
+console.log(a != b);
+console.log(a > b);
+console.log(a < b);
+console.log(a >= b);
+console.log(a <= b);
+console.log(a === b);
+
+console.log("End of section")
+//This is the ternary operator
+let isAdult = person['age'] >= 18 ? 'Yes' : 'No';
+console.log(isAdult);

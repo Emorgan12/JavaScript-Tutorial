@@ -32,3 +32,26 @@ How would you access the first element of an array? ArrayName[0]
 
 What is a function? A function is a piece of code that can be run in one line using the function name and any parameters
 What is a parameter variable? A parameter variable is a variable in a function that is not set inside the function and therefore must be passed into it inside the brackets
+
+**Types of functions**
+
+What are the two reasons to create a function? To perform an action or to calculate and return a value
+
+**Arithmetic operators**
+
+What arithmetic operators are available in JavaScript? +, -, /, *, %, ++, --
+How do you increment an integer variable? VariableName = VariableName + 1, VariableName += 1, VariableName++ or ++VariableName
+
+**Assignment Operator**
+
+What does the single equal sign stand for in JavaScript? Assignment to a variable
+
+**Comparison/Equality Operators**
+
+What are the comparison and equality operators? ==, !=, >, <, <=, >=
+What is loose equality? Loose equality is when the values are equal but not necessarily the datatype (==)
+What is strict equality? Strict equality is when the items being compared must be identical (===)
+
+**Ternary Operator**
+
+What is the ternary operator? The ternary operator is usd to evaluate whether a statement is true or false and assign the value depending on that
