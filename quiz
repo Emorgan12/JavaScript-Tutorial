@@ -21,3 +21,14 @@ What is dynamic typing? Assigning different data types to the same variable
 
 What is an object in JavaScript? An object refers to a noun usually which holds multiple related key value pairs 
 Are objects a reference or primitive type? Reference because it holds multiple key value pairs
+
+**Arrays**
+
+What are arrays? Arrays are variables that hold multiple values as a list
+How would you determine the length of an array? ArrayName.Length()
+How would you access the first element of an array? ArrayName[0]
+
+**Functions**
+
+What is a function? A function is a piece of code that can be run in one line using the function name and any parameters
+What is a parameter variable? A parameter variable is a variable in a function that is not set inside the function and therefore must be passed into it inside the brackets

@@ -45,3 +45,19 @@ console.log(person['name']);
 //Accessing a property in an object using a string variable as the key
 let property = 'age';
 console.log(person[property]);
+
+//This is an array data type
+let colours = ['Red', 'Green', 'Blue'];
+console.log(colours.length);    
+console.log(colours[0]);
+
+//This is a function
+function SayHello(name) {
+    console.log('Hello ' + name);
+}
+SayHello(person['name']);
+
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(5, 6));
