@@ -4,10 +4,13 @@
     <title>HTML DOM</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let x = 5;
+    </script>
 </head>
-<body>
-    <h1>HTML DOM</hjson>
-    <p id="demo">Hello World!</p>
-    <button onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click me!</button>
+<body onload="document.getElementById('demo').innerHTML = x;">
+    <h1>HTML DOM</h1>
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML = ++x ">Click me!</button>
 </body>
 </html>
