@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <p id="demo">Text</p>
+
+    <script type="text/babel">
+        let size = 12;
+        class Header {
+            constructor() {
+            this.color = "Red";
+            }
+    
+            changeColor = function() {
+            document.getElementById("demo").style.color += this.color;
+            }
+
+            changeFont = function() {
+            document.getElementById("demo").style.fontSize = size++ + "px";
+            }
+        }
+    
+        const myheader = new Header();
+    
+        //The window object calls the function:
+        window.addEventListener("load", myheader.changeColor.bind(myheader));
+    
+        //A button object calls the function:
+        document.getElementById("btn").addEventListener("click", myheader.changeFont.bind(myheader));
+
+    </script>
+    <button id="btn">Click Me!</button>
+  </body>
+</html>
